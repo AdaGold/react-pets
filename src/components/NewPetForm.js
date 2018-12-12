@@ -48,7 +48,9 @@ class NewPetForm extends Component {
     return (
       <form
         id="new-pet"
-        onSubmit={this.onFormSubmit}>
+        onSubmit={this.onFormSubmit}
+        className="dan-class"
+        >
         <div>
           <label htmlFor="name">Pet Name</label>
           <input name="name" type="text"
